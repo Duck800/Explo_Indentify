@@ -8,8 +8,8 @@ const router = createRouter({
             redirect: '/explosion_identify'  // 重定向
         },
         {
-            path: '/explosion_identify',//choice为右侧功能区显示的内容（如dashboard、segmentation）
-            name: 'explosion_identify',  // 布局界面（包括菜单栏与功能区）
+            path: '/explosion_identify',//直接设置为玻璃内爆识别页面
+            name: 'explosion_identify',  
             component: () => import('@/views/layout/index.vue'),
         },
     ]
